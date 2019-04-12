@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Name            MATTHEW CARSON
+     Student ID           S1507791
+    Programme of Study   Computing
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="?attr/colorAccent"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/nav_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S1507791"
+        android:textColor="@color/Black"
+        />
+</LinearLayout>
